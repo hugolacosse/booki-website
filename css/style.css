@@ -164,30 +164,39 @@ a {
 
 /****** Activities ***********/
 
-.activites {
-    background-color: var(--main-bg-color);
-    border-radius: 20px;
+
+.activities {
+
     padding: 30px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
+
+/*.activities-cards*/
 .activities-cards {
-    display:flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
 }
+
 .activities-cards .card {
     display: flex;
-    width: 315px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    height: 439px;
+    flex-direction: column;
 }
 
 .activities-cards img {
     width: 100%;
-    width: 20px;
-    height: 20px; 
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
+.activities-cards h3 {
+    font-size: 16px;
+}
 
 /****** Footer ***********/
 
