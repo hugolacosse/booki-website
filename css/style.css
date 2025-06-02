@@ -74,6 +74,33 @@ a {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hebergements-cards {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.hebergements-cards .card {
+    width: 243px;
+}
+
+.hebergements-cards img {
+    width: 100%;
+    height: 124px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+.hebergements-subtitle {
+    font-size: 18px;
+    margin: 0;
 }
 
 /****** Populaires ***********/
