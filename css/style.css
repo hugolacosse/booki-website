@@ -82,11 +82,11 @@ a {
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
 }
 
 .hebergements-cards .card {
     width: 243px;
+    padding-bottom: 15px;
 }
 
 .hebergements-cards img {
@@ -96,7 +96,21 @@ a {
     border-top-right-radius: 20px;
 }
 
+.hebergements-cards .card-content {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
 
+.hebergements-cards .card-title {
+    margin: 4px 0px 0px 0px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 8px 0px;
+}
 
 .hebergements-subtitle {
     font-size: 18px;
