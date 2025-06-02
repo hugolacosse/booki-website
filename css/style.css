@@ -162,8 +162,59 @@ a {
     margin-bottom: 5px;
 }
 
+/****** Activities ***********/
+
+.activites {
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.activities-cards {
+    display:flex;
+}
+.activities-cards .card {
+    display: flex;
+    width: 315px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activities-cards img {
+    width: 100%;
+    width: 20px;
+    height: 20px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 
 
+/****** Footer ***********/
+
+footer {
+    margin-top: 50px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+footer ul {
+    margin: 0px;
+    padding: 0px;
+    gap: 15px;
+    flex: 1;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+footer h3 {
+    margin: 0px;
+    font-size: 18px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
@@ -205,4 +256,14 @@ a {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+    footer {
+        flex-direction: column;
+        gap: 50px;
+        padding: 30px;
+    }
+
+    footer ul {
+        gap: 15px;
+        padding: 0px;
+    }
 }
