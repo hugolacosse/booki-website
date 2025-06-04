@@ -30,24 +30,26 @@
         </header>
         <main>
             <section class="hero">
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre-ville ou en pleine nature </p>
+                <div class="hero-title">
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p>En plein centre-ville ou en pleine nature </p>
+                </div>
                 <form id="search-bar">
-                    <label for="" id="search-bar-label" aria-hidden="true"><i class="fa fa-marker"></i></label>
-                    <input type="text" id="search-bar-input" name="search-input" placeholder="Marseille, France">
+                    <label for="search-bar-input"><i class="fa-solid fa-location-dot search-bar-icon" aria-hidden="true"></i></label>
+                    <input type="text" id="search-bar-input" name="search-bar-input" placeholder="Marseille, France">
                     <button type="submit" id="search-bar-button" value="Send">Rechercher</button>
                 </form>
-                <div id="hero-filters-container">
+                <div class="hero-filters-container">
                     <h2>Filtres</h2>
-                    <div id="hero-buttons-container">
-                        <button class="hero-button"><i class="fa fa-credit-card" aria-hidden="true"></i>Économique</button>
-                        <button class="hero-button"><i class="fa fa-male" aria-hidden="true"></i>Familial</button>
-                        <button class="hero-button"><i class="fa fa-heart" aria-hidden="true"></i>Romantique</button>
-                        <button class="hero-button"><i class="fa fa-fire" aria-hidden="true"></i>Nos pépites</button>
+                    <div class="hero-buttons-container">
+                        <button class="hero-button"><i class="fa-solid fa-money-bill-wave" aria-hidden="true"></i></i>Économique</button>
+                        <button class="hero-button"><i class="fa-solid fa-male" aria-hidden="true"></i>Familial</button>
+                        <button class="hero-button"><i class="fa-solid fa-heart" aria-hidden="true"></i>Romantique</button>
+                        <button class="hero-button"><i class="fa-solid fa-fire" aria-hidden="true"></i>Nos pépites</button>
                     </div>
                 </div>
-                <div id="info-container">
-                    <span id="info-icon-container" aria-hidden="true"><i class="fa fa-info"></i></span>
+                <div class="info-container">
+                    <span class="info-icon-container"><i class="fa-solid fa-info" aria-hidden="true"></i></span>
                     <p>Plus de 500 logements sont disponibles dans cette ville </p>
                 </div>
             </section>
@@ -251,25 +253,25 @@
                     <a href="#"> <!-- 1 -->
                         <article class="card">
                             <img src="./images/activites/reno-laithienne.jpg" alt="Image du Vieux-Port">
-                            <h3 class="activitie-card-title">Vieux-Port</h3>
+                            <h3>Vieux-Port</h3>
                         </article>
                     </a>
                     <a href="#"> <!-- 2 -->
                         <article class="card">
                             <img src="./images/activites/paul-hermann.jpg" alt="Image du Fort de Pomègues">
-                            <h3 class="activitie-card-title">Fort de Pomègues</h3>
+                            <h3>Fort de Pomègues</h3>
                         </article>
                     </a>
                     <a href="#"> <!-- 3 -->
                         <article class="card">
                             <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image du Parc national des Calanques">
-                            <h3 class="activitie-card-title">Parc national des Calanques</h3>
+                            <h3>Parc national des Calanques</h3>
                         </article>
                     </a>
                     <a href="#"> <!-- 4 -->
                         <article class="card">
                             <img src="./images/activites/florian-wehde.jpg" alt="Image de Notre-Dame-de-la-garde">
-                            <h3 class="activitie-card-title">Notre-Dame-de-la-garde</h3>
+                            <h3>Notre-Dame-de-la-garde</h3>
                         </article>
                     </a>
                 </div>
