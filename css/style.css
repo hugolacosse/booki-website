@@ -109,7 +109,7 @@ header nav #menu li a:hover {
 }
 
 /****** Hebergements ***********/
-.hebergements {
+#hebergements {
     width: 65%;
 }
 
@@ -206,12 +206,11 @@ header nav #menu li a:hover {
 
 /****** Activities ***********/
 
-/****** Activities ***********/
-
-.activities {
+#activities {
     margin: 35px 0px;
     padding: 30px;
     box-sizing: border-box;
+    /* background-color: var(--filter-bg-color); */
 }
 
 .activities-cards {
@@ -281,7 +280,7 @@ footer h3 {
         flex-direction: column;
     }
 
-    .hebergements {
+    #hebergements {
         width: 100%;
     }
 
@@ -367,7 +366,7 @@ footer h3 {
     }
 
     /****** Hebergements ***********/
-    .hebergements {
+    #hebergements {
         background-color: white !important;
     }
 
