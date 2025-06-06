@@ -273,11 +273,12 @@ header nav #menu li a:hover {
     margin: 0px;
 }
 
+/*
 .hebergements-cards .card-txt {
     display: flex;
     flex-direction: column;
 }
-
+*/
 
 .hebergements-cards .card-subtitle {
     margin: 8px 0px 8px 0px;
@@ -420,10 +421,6 @@ footer h3 {
         flex-direction: column;
     }
 
-    .hebergements-and-populaires {
-        flex-direction: column;
-    }
-
     #hebergements {
         width: 100%;
     }
@@ -551,7 +548,7 @@ footer h3 {
 
     /****** Hebergements ***********/
     #hebergements {
-        background-color: white !important;
+        background-color: white;
     }
 
     .hebergements-cards {
@@ -560,11 +557,8 @@ footer h3 {
     }
 
     .hebergements-cards a {
-        width: 100%;
-    }
-
-    .hebergements-cards .card {
         margin-top: 15px;
+        width: 100%;
     }
 
     .hebergements-subtitle {
