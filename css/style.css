@@ -117,6 +117,10 @@ header nav #menu li a:hover {
 
 #search-bar {
     display: flex;
+    width: fit-content;
+    border-top: 1px solid var(--main-bg-color);
+    border-bottom: 1px solid var(--main-bg-color);
+    border-radius: 16px;
 }
 
 #search-bar label {
@@ -136,8 +140,6 @@ header nav #menu li a:hover {
     font-size: 18px;
     font-weight: bold;
     border: 0px;
-    border-top: 1px solid var(--main-bg-color);
-    border-bottom: 1px solid var(--main-bg-color);
     outline: none;
 }
 
@@ -492,6 +494,10 @@ footer h3 {
     /****** Hero ***********/
     .hero {
         padding: 0px 20px;
+    }
+
+    #search-bar {
+        width: 100%;
     }
 
     #search-bar-input {
