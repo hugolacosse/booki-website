@@ -284,8 +284,9 @@ header nav #menu li a:hover {
     margin: 8px 0px 8px 0px;
 }
 
-.hebergements-subtitle {
-    margin: 0;
+.hebergements-link {
+    display: inline-block;
+    font-weight: bold;
     font-size: 18px;
 }
 
@@ -560,9 +561,8 @@ footer h3 {
         width: 100%;
     }
 
-    .hebergements-subtitle {
+    .hebergements-link {
         margin-top: 15px;
-        font-size: 18px;
     }
 
     /****** Populaires ***********/
